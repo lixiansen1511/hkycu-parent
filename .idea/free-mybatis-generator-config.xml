@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistentConfig">
+    <option name="historyConfigList">
+      <map>
+        <entry key="oms_order">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="OmsOrderDao" />
+              <option name="daoPackage" value="com.hkycu.goods.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="OmsOrder" />
+              <option name="modelPackage" value="com.hkycu.goods.model" />
+              <option name="name" value="oms_order" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/goods-sys" />
+              <option name="tableName" value="oms_order" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources/mybatis" />
+              <option name="xmlPackage" value="mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="oms_order_item">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="OmsOrderItemDao" />
+              <option name="daoPackage" value="com.hkycu.goods.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="OmsOrderItem" />
+              <option name="modelPackage" value="com.hkycu.goods.model" />
+              <option name="name" value="oms_order_item" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/goods-sys" />
+              <option name="tableName" value="oms_order_item" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources/mybatis" />
+              <option name="xmlPackage" value="mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="pms_product">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="PmsProductDao" />
+              <option name="daoPackage" value="com.hkycu.goodsseckill.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="PmsProduct" />
+              <option name="modelPackage" value="com.hkycu.goodsseckill.model" />
+              <option name="name" value="pms_product" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/goods-seckill" />
+              <option name="tableName" value="pms_product" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources/mybatis" />
+              <option name="xmlPackage" value="mappers" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="seckiill_order_info">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="SeckiillOrderInfoDao" />
+              <option name="daoPackage" value="com.hkycu.goodsseckill.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="SeckiillOrderInfo" />
+              <option name="modelPackage" value="com.hkycu.goodsseckill.model" />
+              <option name="name" value="seckiill_order_info" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/goods-seckill" />
+              <option name="tableName" value="seckiill_order_info" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources/mybatis" />
+              <option name="xmlPackage" value="mappers" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="seckill_goods">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="SeckillGoodsDao" />
+              <option name="daoPackage" value="com.hkycu.goodsseckill.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="SeckillGoods" />
+              <option name="modelPackage" value="com.hkycu.goodsseckill.model" />
+              <option name="name" value="seckill_goods" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/goods-seckill" />
+              <option name="tableName" value="seckill_goods" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources/mybatis" />
+              <option name="xmlPackage" value="mappers" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="seckill_order">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="SeckillOrderDao" />
+              <option name="daoPackage" value="com.hkycu.goodsseckill.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="SeckillOrder" />
+              <option name="modelPackage" value="com.hkycu.goodsseckill.model" />
+              <option name="name" value="seckill_order" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/goods-seckill" />
+              <option name="tableName" value="seckill_order" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources/mybatis" />
+              <option name="xmlPackage" value="mappers" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="seckill_order_info">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="SeckillOrderInfoDao" />
+              <option name="daoPackage" value="com.hkycu.goodsseckill.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="SeckillOrderInfo" />
+              <option name="modelPackage" value="com.hkycu.goodsseckill.model" />
+              <option name="name" value="seckill_order_info" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/goods-seckill" />
+              <option name="tableName" value="seckill_order_info" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources/mybatis" />
+              <option name="xmlPackage" value="mappers" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="tear_down_detail">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="TearDownDetailDao" />
+              <option name="daoPackage" value="com.hkycu.goods.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="TearDownDetail" />
+              <option name="modelPackage" value="com.hkycu.goods.model" />
+              <option name="name" value="tear_down_detail" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/goods-sys" />
+              <option name="tableName" value="tear_down_detail" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources/mybatis" />
+              <option name="xmlPackage" value="mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="ums_member">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="UmsMemberDao" />
+              <option name="daoPackage" value="com.hkycu.goodsseckill.dao" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="UmsMember" />
+              <option name="modelPackage" value="com.hkycu.goodsseckill.model" />
+              <option name="name" value="ums_member" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$/goods-seckill" />
+              <option name="tableName" value="ums_member" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources/mybatis" />
+              <option name="xmlPackage" value="mappers" />
+            </Config>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

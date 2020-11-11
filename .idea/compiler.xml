@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="goods-elastic" />
+        <module name="goods-seckill" />
+        <module name="goods-sys" />
+        <module name="user-sys" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="goods-elastic" target="1.8" />
+      <module name="goods-seckill" target="1.8" />
+      <module name="goods-sys" target="1.8" />
+      <module name="hkycu-parent" target="1.5" />
+      <module name="user-sys" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hkycu.goods.dao.TearDownDetailDao">
+  <resultMap id="BaseResultMap" type="com.hkycu.goods.model.TearDownDetail">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="order_id" jdbcType="BIGINT" property="orderId" />
+    <result column="produce_id" jdbcType="INTEGER" property="produceId" />
+    <result column="produce_name" jdbcType="VARCHAR" property="produceName" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="num" jdbcType="BIGINT" property="num" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, order_id, produce_id, produce_name, product_name, num, product_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tear_down_detail
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from tear_down_detail
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.hkycu.goods.model.TearDownDetail" useGeneratedKeys="true">
+    insert into tear_down_detail (order_id, produce_id, produce_name, 
+      product_name, num, product_id
+      )
+    values (#{orderId,jdbcType=BIGINT}, #{produceId,jdbcType=INTEGER}, #{produceName,jdbcType=VARCHAR}, 
+      #{productName,jdbcType=VARCHAR}, #{num,jdbcType=BIGINT}, #{productId,jdbcType=INTEGER}
+      )
+  </insert>
+
+  <insert id="batchInsertTearDownDetail" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+    insert into tear_down_detail (order_id, produce_id, produce_name,
+    product_name, num, product_id
+    )
+    values
+    <foreach collection="list" item="c" separator=",">
+      (#{c.orderId,jdbcType=BIGINT},
+      #{c.produceId,jdbcType=VARCHAR},
+      #{c.produceName,jdbcType=VARCHAR},
+      #{c.productName,jdbcType=DECIMAL},
+      #{c.num,jdbcType=INTEGER},
+      #{c.productId,jdbcType=BIGINT})
+    </foreach>
+  </insert>
+
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.hkycu.goods.model.TearDownDetail" useGeneratedKeys="true">
+    insert into tear_down_detail
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="orderId != null">
+        order_id,
+      </if>
+      <if test="produceId != null">
+        produce_id,
+      </if>
+      <if test="produceName != null">
+        produce_name,
+      </if>
+      <if test="productName != null">
+        product_name,
+      </if>
+      <if test="num != null">
+        num,
+      </if>
+      <if test="productId != null">
+        product_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="orderId != null">
+        #{orderId,jdbcType=BIGINT},
+      </if>
+      <if test="produceId != null">
+        #{produceId,jdbcType=INTEGER},
+      </if>
+      <if test="produceName != null">
+        #{produceName,jdbcType=VARCHAR},
+      </if>
+      <if test="productName != null">
+        #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="num != null">
+        #{num,jdbcType=BIGINT},
+      </if>
+      <if test="productId != null">
+        #{productId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hkycu.goods.model.TearDownDetail">
+    update tear_down_detail
+    <set>
+      <if test="orderId != null">
+        order_id = #{orderId,jdbcType=BIGINT},
+      </if>
+      <if test="produceId != null">
+        produce_id = #{produceId,jdbcType=INTEGER},
+      </if>
+      <if test="produceName != null">
+        produce_name = #{produceName,jdbcType=VARCHAR},
+      </if>
+      <if test="productName != null">
+        product_name = #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="num != null">
+        num = #{num,jdbcType=BIGINT},
+      </if>
+      <if test="productId != null">
+        product_id = #{productId,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hkycu.goods.model.TearDownDetail">
+    update tear_down_detail
+    set order_id = #{orderId,jdbcType=BIGINT},
+      produce_id = #{produceId,jdbcType=INTEGER},
+      produce_name = #{produceName,jdbcType=VARCHAR},
+      product_name = #{productName,jdbcType=VARCHAR},
+      num = #{num,jdbcType=BIGINT},
+      product_id = #{productId,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

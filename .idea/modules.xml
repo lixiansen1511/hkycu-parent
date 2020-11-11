@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/goods-elastic/goods-elastic.iml" filepath="$PROJECT_DIR$/goods-elastic/goods-elastic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods-seckill/goods-seckill.iml" filepath="$PROJECT_DIR$/goods-seckill/goods-seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods-sys/goods-sys.iml" filepath="$PROJECT_DIR$/goods-sys/goods-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hkycu-parent.iml" filepath="$PROJECT_DIR$/.idea/hkycu-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-sys/user-sys.iml" filepath="$PROJECT_DIR$/user-sys/user-sys.iml" />
+    </modules>
+  </component>
+</project>

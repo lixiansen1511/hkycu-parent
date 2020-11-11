@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hkycu.goods.elastic.mapper.GoodsMapper">
+    <resultMap id="BaseResultMap" type="com.hkycu.goods.elastic.domain.Goods">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="title" jdbcType="VARCHAR" property="title"/>
+        <result column="sell_point" jdbcType="VARCHAR" property="sellPoint"/>
+        <result column="price" jdbcType="BIGINT" property="price"/>
+        <result column="category_name" jdbcType="VARCHAR" property="categoryName"/>
+        <result column="image" jdbcType="VARCHAR" property="image"/>
+    </resultMap>
+
+    <select id="getGoodsList" resultMap="BaseResultMap">
+        SELECT
+        a.id,
+        a.title,
+        a.sell_point,
+        a.price,
+        a.image,
+        b.name category_name
+        FROM tb_item a
+        LEFT JOIN
+        tb_item_cat b
+        ON a.cid = b.id
+        WHERE
+        a.status = 1;
+    </select>
+
+    <select id="getGoodsById" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        SELECT
+        a.id,
+        a.title,
+        a.sell_point,
+        a.price,
+        a.image,
+        b.name category_name
+        FROM tb_item a
+        LEFT JOIN
+        tb_item_cat b
+        ON a.cid = b.id
+        WHERE
+        a.status = 1
+        AND
+        a.id = #{id}
+    </select>
+</mapper>

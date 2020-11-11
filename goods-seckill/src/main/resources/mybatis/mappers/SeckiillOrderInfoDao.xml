@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hkycu.goodsseckill.dao.SeckiillOrderInfoDao">
+  <resultMap id="BaseResultMap" type="com.hkycu.goodsseckill.model.SeckiillOrderInfo">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="member_id" jdbcType="BIGINT" property="memberId" />
+    <result column="goods_id" jdbcType="BIGINT" property="goodsId" />
+    <result column="addr_id" jdbcType="BIGINT" property="addrId" />
+    <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
+    <result column="goods_count" jdbcType="INTEGER" property="goodsCount" />
+    <result column="goods_price" jdbcType="DECIMAL" property="goodsPrice" />
+    <result column="order_channel" jdbcType="INTEGER" property="orderChannel" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="pay_date" jdbcType="TIMESTAMP" property="payDate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, member_id, goods_id, addr_id, goods_name, goods_count, goods_price, order_channel, 
+    `status`, create_date, pay_date
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from seckiill_order_info
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from seckiill_order_info
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.hkycu.goodsseckill.model.SeckiillOrderInfo" useGeneratedKeys="true">
+    insert into seckiill_order_info (member_id, goods_id, addr_id, 
+      goods_name, goods_count, goods_price, 
+      order_channel, `status`, create_date, 
+      pay_date)
+    values (#{memberId,jdbcType=BIGINT}, #{goodsId,jdbcType=BIGINT}, #{addrId,jdbcType=BIGINT}, 
+      #{goodsName,jdbcType=VARCHAR}, #{goodsCount,jdbcType=INTEGER}, #{goodsPrice,jdbcType=DECIMAL}, 
+      #{orderChannel,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, #{createDate,jdbcType=TIMESTAMP}, 
+      #{payDate,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.hkycu.goodsseckill.model.SeckiillOrderInfo" useGeneratedKeys="true">
+    insert into seckiill_order_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="memberId != null">
+        member_id,
+      </if>
+      <if test="goodsId != null">
+        goods_id,
+      </if>
+      <if test="addrId != null">
+        addr_id,
+      </if>
+      <if test="goodsName != null">
+        goods_name,
+      </if>
+      <if test="goodsCount != null">
+        goods_count,
+      </if>
+      <if test="goodsPrice != null">
+        goods_price,
+      </if>
+      <if test="orderChannel != null">
+        order_channel,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="createDate != null">
+        create_date,
+      </if>
+      <if test="payDate != null">
+        pay_date,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="memberId != null">
+        #{memberId,jdbcType=BIGINT},
+      </if>
+      <if test="goodsId != null">
+        #{goodsId,jdbcType=BIGINT},
+      </if>
+      <if test="addrId != null">
+        #{addrId,jdbcType=BIGINT},
+      </if>
+      <if test="goodsName != null">
+        #{goodsName,jdbcType=VARCHAR},
+      </if>
+      <if test="goodsCount != null">
+        #{goodsCount,jdbcType=INTEGER},
+      </if>
+      <if test="goodsPrice != null">
+        #{goodsPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="orderChannel != null">
+        #{orderChannel,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="createDate != null">
+        #{createDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="payDate != null">
+        #{payDate,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hkycu.goodsseckill.model.SeckiillOrderInfo">
+    update seckiill_order_info
+    <set>
+      <if test="memberId != null">
+        member_id = #{memberId,jdbcType=BIGINT},
+      </if>
+      <if test="goodsId != null">
+        goods_id = #{goodsId,jdbcType=BIGINT},
+      </if>
+      <if test="addrId != null">
+        addr_id = #{addrId,jdbcType=BIGINT},
+      </if>
+      <if test="goodsName != null">
+        goods_name = #{goodsName,jdbcType=VARCHAR},
+      </if>
+      <if test="goodsCount != null">
+        goods_count = #{goodsCount,jdbcType=INTEGER},
+      </if>
+      <if test="goodsPrice != null">
+        goods_price = #{goodsPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="orderChannel != null">
+        order_channel = #{orderChannel,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="createDate != null">
+        create_date = #{createDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="payDate != null">
+        pay_date = #{payDate,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hkycu.goodsseckill.model.SeckiillOrderInfo">
+    update seckiill_order_info
+    set member_id = #{memberId,jdbcType=BIGINT},
+      goods_id = #{goodsId,jdbcType=BIGINT},
+      addr_id = #{addrId,jdbcType=BIGINT},
+      goods_name = #{goodsName,jdbcType=VARCHAR},
+      goods_count = #{goodsCount,jdbcType=INTEGER},
+      goods_price = #{goodsPrice,jdbcType=DECIMAL},
+      order_channel = #{orderChannel,jdbcType=INTEGER},
+      `status` = #{status,jdbcType=INTEGER},
+      create_date = #{createDate,jdbcType=TIMESTAMP},
+      pay_date = #{payDate,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

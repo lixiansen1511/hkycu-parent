@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hkycu.goods.dao.OmsOrderItemDao">
+  <resultMap id="BaseResultMap" type="com.hkycu.goods.model.OmsOrderItem">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="order_id" jdbcType="BIGINT" property="orderId" />
+    <result column="order_sn" jdbcType="VARCHAR" property="orderSn" />
+    <result column="product_id" jdbcType="BIGINT" property="productId" />
+    <result column="product_pic" jdbcType="VARCHAR" property="productPic" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="product_brand" jdbcType="VARCHAR" property="productBrand" />
+    <result column="product_sn" jdbcType="VARCHAR" property="productSn" />
+    <result column="product_price" jdbcType="DECIMAL" property="productPrice" />
+    <result column="product_quantity" jdbcType="INTEGER" property="productQuantity" />
+    <result column="product_sku_id" jdbcType="BIGINT" property="productSkuId" />
+    <result column="product_sku_code" jdbcType="VARCHAR" property="productSkuCode" />
+    <result column="product_category_id" jdbcType="BIGINT" property="productCategoryId" />
+    <result column="promotion_name" jdbcType="VARCHAR" property="promotionName" />
+    <result column="promotion_amount" jdbcType="DECIMAL" property="promotionAmount" />
+    <result column="coupon_amount" jdbcType="DECIMAL" property="couponAmount" />
+    <result column="integration_amount" jdbcType="DECIMAL" property="integrationAmount" />
+    <result column="real_amount" jdbcType="DECIMAL" property="realAmount" />
+    <result column="gift_integration" jdbcType="INTEGER" property="giftIntegration" />
+    <result column="gift_growth" jdbcType="INTEGER" property="giftGrowth" />
+    <result column="product_attr" jdbcType="VARCHAR" property="productAttr" />
+    <result column="produce_name" jdbcType="VARCHAR" property="produceName" />
+    <result column="produce_id" jdbcType="INTEGER" property="produceId" />
+    <result column="total_price" jdbcType="DECIMAL" property="totalPrice" />
+
+    <association property="omsOrder" javaType="com.hkycu.goods.model.OmsOrder">
+      <id column="id" jdbcType="BIGINT" property="id" />
+      <result column="member_id" jdbcType="BIGINT" property="memberId" />
+      <result column="coupon_id" jdbcType="BIGINT" property="couponId" />
+      <result column="order_sn" jdbcType="VARCHAR" property="orderSn" />
+      <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+      <result column="member_username" jdbcType="VARCHAR" property="memberUsername" />
+      <result column="total_amount" jdbcType="DECIMAL" property="totalAmount" />
+      <result column="pay_amount" jdbcType="DECIMAL" property="payAmount" />
+      <result column="freight_amount" jdbcType="DECIMAL" property="freightAmount" />
+      <result column="promotion_amount" jdbcType="DECIMAL" property="promotionAmount" />
+      <result column="integration_amount" jdbcType="DECIMAL" property="integrationAmount" />
+      <result column="coupon_amount" jdbcType="DECIMAL" property="couponAmount" />
+      <result column="discount_amount" jdbcType="DECIMAL" property="discountAmount" />
+      <result column="pay_type" jdbcType="INTEGER" property="payType" />
+      <result column="source_type" jdbcType="INTEGER" property="sourceType" />
+      <result column="status" jdbcType="INTEGER" property="status" />
+      <result column="order_type" jdbcType="INTEGER" property="orderType" />
+      <result column="delivery_company" jdbcType="VARCHAR" property="deliveryCompany" />
+      <result column="delivery_sn" jdbcType="VARCHAR" property="deliverySn" />
+      <result column="auto_confirm_day" jdbcType="INTEGER" property="autoConfirmDay" />
+      <result column="integration" jdbcType="INTEGER" property="integration" />
+      <result column="growth" jdbcType="INTEGER" property="growth" />
+      <result column="promotion_info" jdbcType="VARCHAR" property="promotionInfo" />
+      <result column="bill_type" jdbcType="INTEGER" property="billType" />
+      <result column="bill_header" jdbcType="VARCHAR" property="billHeader" />
+      <result column="bill_content" jdbcType="VARCHAR" property="billContent" />
+      <result column="bill_receiver_phone" jdbcType="VARCHAR" property="billReceiverPhone" />
+      <result column="bill_receiver_email" jdbcType="VARCHAR" property="billReceiverEmail" />
+      <result column="receiver_name" jdbcType="VARCHAR" property="receiverName" />
+      <result column="receiver_phone" jdbcType="VARCHAR" property="receiverPhone" />
+      <result column="receiver_post_code" jdbcType="VARCHAR" property="receiverPostCode" />
+      <result column="receiver_province" jdbcType="VARCHAR" property="receiverProvince" />
+      <result column="receiver_city" jdbcType="VARCHAR" property="receiverCity" />
+      <result column="receiver_region" jdbcType="VARCHAR" property="receiverRegion" />
+      <result column="receiver_detail_address" jdbcType="VARCHAR" property="receiverDetailAddress" />
+      <result column="note" jdbcType="VARCHAR" property="note" />
+      <result column="confirm_status" jdbcType="INTEGER" property="confirmStatus" />
+      <result column="delete_status" jdbcType="INTEGER" property="deleteStatus" />
+      <result column="use_integration" jdbcType="INTEGER" property="useIntegration" />
+      <result column="payment_time" jdbcType="TIMESTAMP" property="paymentTime" />
+      <result column="delivery_time" jdbcType="TIMESTAMP" property="deliveryTime" />
+      <result column="receive_time" jdbcType="TIMESTAMP" property="receiveTime" />
+      <result column="comment_time" jdbcType="TIMESTAMP" property="commentTime" />
+      <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime" />
+    </association>
+
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, order_id, order_sn, product_id, product_pic, product_name, product_brand, product_sn, 
+    product_price, product_quantity, product_sku_id, product_sku_code, product_category_id, 
+    promotion_name, promotion_amount, coupon_amount, integration_amount, real_amount, 
+    gift_integration, gift_growth, product_attr, produce_name, produce_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from oms_order_item
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+
+  <select id="selectItemByOrderId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from oms_order_item
+    where order_id = #{orderId,jdbcType=BIGINT}
+  </select>
+  
+  <select id="selectBrandAndPrice" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    SELECT
+       product_brand,SUM(product_price) AS total_price
+    FROM
+      oms_order_item,oms_order
+    WHERE
+      order_id=oms_order.id
+    AND
+       oms_order.member_id=#{memberId,jdbcType=BIGINT}
+    GROUP BY
+      product_brand
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from oms_order_item
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+
+  <insert id="batchInsertOrderItem" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+    insert into
+    oms_order_item (order_id, order_sn, product_id,
+    product_pic, product_name, product_brand,
+    product_sn, product_price, product_quantity,
+    product_sku_id, product_sku_code, product_category_id,
+    promotion_name, promotion_amount, coupon_amount,
+    integration_amount, real_amount, gift_integration,
+    gift_growth, product_attr, produce_name,
+    produce_id)
+    values
+    <foreach collection="list" item="c" separator=",">
+      (#{c.orderId,jdbcType=BIGINT}, #{c.orderSn,jdbcType=VARCHAR}, #{c.productId,jdbcType=BIGINT},
+      #{c.productPic,jdbcType=VARCHAR}, #{c.productName,jdbcType=VARCHAR}, #{c.productBrand,jdbcType=VARCHAR},
+      #{c.productSn,jdbcType=VARCHAR}, #{c.productPrice,jdbcType=DECIMAL}, #{c.productQuantity,jdbcType=INTEGER},
+      #{c.productSkuId,jdbcType=BIGINT}, #{c.productSkuCode,jdbcType=VARCHAR}, #{c.productCategoryId,jdbcType=BIGINT},
+      #{c.promotionName,jdbcType=VARCHAR}, #{c.promotionAmount,jdbcType=DECIMAL}, #{c.couponAmount,jdbcType=DECIMAL},
+      #{c.integrationAmount,jdbcType=DECIMAL}, #{c.realAmount,jdbcType=DECIMAL}, #{c.giftIntegration,jdbcType=INTEGER},
+      #{c.giftGrowth,jdbcType=INTEGER}, #{c.productAttr,jdbcType=VARCHAR}, #{c.produceName,jdbcType=VARCHAR},
+      #{c.produceId,jdbcType=INTEGER})
+    </foreach>
+  </insert>
+
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.hkycu.goods.model.OmsOrderItem" useGeneratedKeys="true">
+    insert into oms_order_item (order_id, order_sn, product_id, 
+      product_pic, product_name, product_brand, 
+      product_sn, product_price, product_quantity, 
+      product_sku_id, product_sku_code, product_category_id, 
+      promotion_name, promotion_amount, coupon_amount, 
+      integration_amount, real_amount, gift_integration, 
+      gift_growth, product_attr, produce_name, 
+      produce_id)
+    values (#{orderId,jdbcType=BIGINT}, #{orderSn,jdbcType=VARCHAR}, #{productId,jdbcType=BIGINT}, 
+      #{productPic,jdbcType=VARCHAR}, #{productName,jdbcType=VARCHAR}, #{productBrand,jdbcType=VARCHAR}, 
+      #{productSn,jdbcType=VARCHAR}, #{productPrice,jdbcType=DECIMAL}, #{productQuantity,jdbcType=INTEGER}, 
+      #{productSkuId,jdbcType=BIGINT}, #{productSkuCode,jdbcType=VARCHAR}, #{productCategoryId,jdbcType=BIGINT}, 
+      #{promotionName,jdbcType=VARCHAR}, #{promotionAmount,jdbcType=DECIMAL}, #{couponAmount,jdbcType=DECIMAL}, 
+      #{integrationAmount,jdbcType=DECIMAL}, #{realAmount,jdbcType=DECIMAL}, #{giftIntegration,jdbcType=INTEGER}, 
+      #{giftGrowth,jdbcType=INTEGER}, #{productAttr,jdbcType=VARCHAR}, #{produceName,jdbcType=VARCHAR}, 
+      #{produceId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.hkycu.goods.model.OmsOrderItem" useGeneratedKeys="true">
+    insert into oms_order_item
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="orderId != null">
+        order_id,
+      </if>
+      <if test="orderSn != null">
+        order_sn,
+      </if>
+      <if test="productId != null">
+        product_id,
+      </if>
+      <if test="productPic != null">
+        product_pic,
+      </if>
+      <if test="productName != null">
+        product_name,
+      </if>
+      <if test="productBrand != null">
+        product_brand,
+      </if>
+      <if test="productSn != null">
+        product_sn,
+      </if>
+      <if test="productPrice != null">
+        product_price,
+      </if>
+      <if test="productQuantity != null">
+        product_quantity,
+      </if>
+      <if test="productSkuId != null">
+        product_sku_id,
+      </if>
+      <if test="productSkuCode != null">
+        product_sku_code,
+      </if>
+      <if test="productCategoryId != null">
+        product_category_id,
+      </if>
+      <if test="promotionName != null">
+        promotion_name,
+      </if>
+      <if test="promotionAmount != null">
+        promotion_amount,
+      </if>
+      <if test="couponAmount != null">
+        coupon_amount,
+      </if>
+      <if test="integrationAmount != null">
+        integration_amount,
+      </if>
+      <if test="realAmount != null">
+        real_amount,
+      </if>
+      <if test="giftIntegration != null">
+        gift_integration,
+      </if>
+      <if test="giftGrowth != null">
+        gift_growth,
+      </if>
+      <if test="productAttr != null">
+        product_attr,
+      </if>
+      <if test="produceName != null">
+        produce_name,
+      </if>
+      <if test="produceId != null">
+        produce_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="orderId != null">
+        #{orderId,jdbcType=BIGINT},
+      </if>
+      <if test="orderSn != null">
+        #{orderSn,jdbcType=VARCHAR},
+      </if>
+      <if test="productId != null">
+        #{productId,jdbcType=BIGINT},
+      </if>
+      <if test="productPic != null">
+        #{productPic,jdbcType=VARCHAR},
+      </if>
+      <if test="productName != null">
+        #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="productBrand != null">
+        #{productBrand,jdbcType=VARCHAR},
+      </if>
+      <if test="productSn != null">
+        #{productSn,jdbcType=VARCHAR},
+      </if>
+      <if test="productPrice != null">
+        #{productPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="productQuantity != null">
+        #{productQuantity,jdbcType=INTEGER},
+      </if>
+      <if test="productSkuId != null">
+        #{productSkuId,jdbcType=BIGINT},
+      </if>
+      <if test="productSkuCode != null">
+        #{productSkuCode,jdbcType=VARCHAR},
+      </if>
+      <if test="productCategoryId != null">
+        #{productCategoryId,jdbcType=BIGINT},
+      </if>
+      <if test="promotionName != null">
+        #{promotionName,jdbcType=VARCHAR},
+      </if>
+      <if test="promotionAmount != null">
+        #{promotionAmount,jdbcType=DECIMAL},
+      </if>
+      <if test="couponAmount != null">
+        #{couponAmount,jdbcType=DECIMAL},
+      </if>
+      <if test="integrationAmount != null">
+        #{integrationAmount,jdbcType=DECIMAL},
+      </if>
+      <if test="realAmount != null">
+        #{realAmount,jdbcType=DECIMAL},
+      </if>
+      <if test="giftIntegration != null">
+        #{giftIntegration,jdbcType=INTEGER},
+      </if>
+      <if test="giftGrowth != null">
+        #{giftGrowth,jdbcType=INTEGER},
+      </if>
+      <if test="productAttr != null">
+        #{productAttr,jdbcType=VARCHAR},
+      </if>
+      <if test="produceName != null">
+        #{produceName,jdbcType=VARCHAR},
+      </if>
+      <if test="produceId != null">
+        #{produceId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hkycu.goods.model.OmsOrderItem">
+    update oms_order_item
+    <set>
+      <if test="orderId != null">
+        order_id = #{orderId,jdbcType=BIGINT},
+      </if>
+      <if test="orderSn != null">
+        order_sn = #{orderSn,jdbcType=VARCHAR},
+      </if>
+      <if test="productId != null">
+        product_id = #{productId,jdbcType=BIGINT},
+      </if>
+      <if test="productPic != null">
+        product_pic = #{productPic,jdbcType=VARCHAR},
+      </if>
+      <if test="productName != null">
+        product_name = #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="productBrand != null">
+        product_brand = #{productBrand,jdbcType=VARCHAR},
+      </if>
+      <if test="productSn != null">
+        product_sn = #{productSn,jdbcType=VARCHAR},
+      </if>
+      <if test="productPrice != null">
+        product_price = #{productPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="productQuantity != null">
+        product_quantity = #{productQuantity,jdbcType=INTEGER},
+      </if>
+      <if test="productSkuId != null">
+        product_sku_id = #{productSkuId,jdbcType=BIGINT},
+      </if>
+      <if test="productSkuCode != null">
+        product_sku_code = #{productSkuCode,jdbcType=VARCHAR},
+      </if>
+      <if test="productCategoryId != null">
+        product_category_id = #{productCategoryId,jdbcType=BIGINT},
+      </if>
+      <if test="promotionName != null">
+        promotion_name = #{promotionName,jdbcType=VARCHAR},
+      </if>
+      <if test="promotionAmount != null">
+        promotion_amount = #{promotionAmount,jdbcType=DECIMAL},
+      </if>
+      <if test="couponAmount != null">
+        coupon_amount = #{couponAmount,jdbcType=DECIMAL},
+      </if>
+      <if test="integrationAmount != null">
+        integration_amount = #{integrationAmount,jdbcType=DECIMAL},
+      </if>
+      <if test="realAmount != null">
+        real_amount = #{realAmount,jdbcType=DECIMAL},
+      </if>
+      <if test="giftIntegration != null">
+        gift_integration = #{giftIntegration,jdbcType=INTEGER},
+      </if>
+      <if test="giftGrowth != null">
+        gift_growth = #{giftGrowth,jdbcType=INTEGER},
+      </if>
+      <if test="productAttr != null">
+        product_attr = #{productAttr,jdbcType=VARCHAR},
+      </if>
+      <if test="produceName != null">
+        produce_name = #{produceName,jdbcType=VARCHAR},
+      </if>
+      <if test="produceId != null">
+        produce_id = #{produceId,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hkycu.goods.model.OmsOrderItem">
+    update oms_order_item
+    set order_id = #{orderId,jdbcType=BIGINT},
+      order_sn = #{orderSn,jdbcType=VARCHAR},
+      product_id = #{productId,jdbcType=BIGINT},
+      product_pic = #{productPic,jdbcType=VARCHAR},
+      product_name = #{productName,jdbcType=VARCHAR},
+      product_brand = #{productBrand,jdbcType=VARCHAR},
+      product_sn = #{productSn,jdbcType=VARCHAR},
+      product_price = #{productPrice,jdbcType=DECIMAL},
+      product_quantity = #{productQuantity,jdbcType=INTEGER},
+      product_sku_id = #{productSkuId,jdbcType=BIGINT},
+      product_sku_code = #{productSkuCode,jdbcType=VARCHAR},
+      product_category_id = #{productCategoryId,jdbcType=BIGINT},
+      promotion_name = #{promotionName,jdbcType=VARCHAR},
+      promotion_amount = #{promotionAmount,jdbcType=DECIMAL},
+      coupon_amount = #{couponAmount,jdbcType=DECIMAL},
+      integration_amount = #{integrationAmount,jdbcType=DECIMAL},
+      real_amount = #{realAmount,jdbcType=DECIMAL},
+      gift_integration = #{giftIntegration,jdbcType=INTEGER},
+      gift_growth = #{giftGrowth,jdbcType=INTEGER},
+      product_attr = #{productAttr,jdbcType=VARCHAR},
+      produce_name = #{produceName,jdbcType=VARCHAR},
+      produce_id = #{produceId,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

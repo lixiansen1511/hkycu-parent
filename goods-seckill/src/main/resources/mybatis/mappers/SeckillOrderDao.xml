@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hkycu.goodsseckill.dao.SeckillOrderDao">
+  <resultMap id="BaseResultMap" type="com.hkycu.goodsseckill.model.SeckillOrder">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="member_id" jdbcType="BIGINT" property="memberId" />
+    <result column="order_id" jdbcType="BIGINT" property="orderId" />
+    <result column="goods_id" jdbcType="BIGINT" property="goodsId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, member_id, order_id, goods_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from seckill_order
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectByUserIdAndGoodsId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from seckill_order
+    where member_id = #{userId,jdbcType=BIGINT}
+    and goods_id = #{goodsId,jdbcType=BIGINT}
+  </select>
+  <select id="queryOrderList"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from seckill_order
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from seckill_order
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.hkycu.goodsseckill.model.SeckillOrder" useGeneratedKeys="true">
+    insert into seckill_order (member_id, order_id, goods_id
+      )
+    values (#{memberId,jdbcType=BIGINT}, #{orderId,jdbcType=BIGINT}, #{goodsId,jdbcType=BIGINT}
+      )
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.hkycu.goodsseckill.model.SeckillOrder" useGeneratedKeys="true">
+    insert into seckill_order
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="memberId != null">
+        member_id,
+      </if>
+      <if test="orderId != null">
+        order_id,
+      </if>
+      <if test="goodsId != null">
+        goods_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="memberId != null">
+        #{memberId,jdbcType=BIGINT},
+      </if>
+      <if test="orderId != null">
+        #{orderId,jdbcType=BIGINT},
+      </if>
+      <if test="goodsId != null">
+        #{goodsId,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hkycu.goodsseckill.model.SeckillOrder">
+    update seckill_order
+    <set>
+      <if test="memberId != null">
+        member_id = #{memberId,jdbcType=BIGINT},
+      </if>
+      <if test="orderId != null">
+        order_id = #{orderId,jdbcType=BIGINT},
+      </if>
+      <if test="goodsId != null">
+        goods_id = #{goodsId,jdbcType=BIGINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hkycu.goodsseckill.model.SeckillOrder">
+    update seckill_order
+    set member_id = #{memberId,jdbcType=BIGINT},
+      order_id = #{orderId,jdbcType=BIGINT},
+      goods_id = #{goodsId,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

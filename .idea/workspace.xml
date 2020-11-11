@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/service/SeckillOrderService.java" description="Long getSeckillResult(Long id, long goodsId);" line="18" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0302808-b28b-4862-9477-b39cc208330c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/user-sys/target/" />
+    <ignored path="$PROJECT_DIR$/goods-sys/target/" />
+    <ignored path="$PROJECT_DIR$/goods-seckill/target/" />
+    <ignored path="$PROJECT_DIR$/goods-elastic/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hkycu-parent" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="GoodsMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/mapper/GoodsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/resources/mybatis/mapper/GoodsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <marker date="1604375400000" expanded="true" signature="799:1043" ph="SELECT a.id,... tb_item" />
+                <marker date="1604375400000" expanded="true" signature="1156:1433" ph="SELECT a.id,... tb_item" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElasticSearchServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/Impl/ElasticSearchServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsServiceDBImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/Impl/GoodsServiceDBImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElasticService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/ElasticService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsServiceDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/GoodsServiceDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsElasticApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/GoodsElasticApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElasticConts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/ElasticConts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CodeMsg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/Result/CodeMsg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/Result/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-630">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/config/RestHighLevelClientConfig.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/domain/Goods.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/mapper/Goods.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/resources/mybatis/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/resources/mybatis/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/goods-elastic/pom.xml" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/Result/Result.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/GoodsServiceDB.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/mapper/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/Impl/GoodsServiceDBImpl.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/ElasticConts.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/ElasticConts.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/test/java/com/hkycu/goods/elastic/GoodsElasticApplicationTests.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/UserKey.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/annotations/AccessLimit.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/AccessKey.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/web/MemberController.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/util/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/resources/mybatis/UmsMemberMapper.xml" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/java/com/hkycu/goods/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/web/SeckillOrderController.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/ElasticService.java" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/java/com/hkycu/goods/web/LoginController.java" />
+        <option value="$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/Impl/ElasticSearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/java/com/hkycu/goods/result/CodeMsg.java" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/java/com/hkycu/goods/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/java/com/hkycu/goods/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/java/com/hkycu/goods/model/PmsProduct.java" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/resources/mybatis/PmsProductMapper.xml" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/java/com/hkycu/goods/web/OrderController.java" />
+        <option value="$PROJECT_DIR$/goods-sys/src/main/java/com/hkycu/goods/web/GoodsController.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/web/ProductSeckillController.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/util/OrderUtil.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/web/SeckillController.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/service/Impl/SeckillOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/RedisService.java" />
+        <option value="$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/interceptor/AuthorityInterceptor.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\mavenRepository" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="97" />
+    <option name="y" value="87" />
+    <option name="width" value="2733" />
+    <option name="height" value="1612" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers ProjectPane="false" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hkycu-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hkycu-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hkycu-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hkycu-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="goods-elastic" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringbootandVueUploadimg" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\hkycu-parent\goods-sys\src\main\resources\static\img" />
+      <recent name="D:\Program Files\hkycu-parent\goods-seckill\src\main\resources\static\img" />
+      <recent name="D:\Program Files\hkycu-parent\goods-elastic\src\main\java\com\hkycu\goods\elastic\Result" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hkycu.goodsseckill.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files\hkycu-parent\goods-sys\src\main\resources\mybatis\config" />
+      <recent name="D:\Program Files\hkycu-parent\goods-sys\src\main\resources\mybatis" />
+      <recent name="D:\Program Files\hkycu-parent\goods-sys\src\main\resources" />
+      <recent name="D:\Program Files\hkycu-parent\goods-sys\src\main\resources\mybatis\mapper" />
+      <recent name="D:\Program Files\hkycu-parent\goods-elastic\src\main\resources\mybatis\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GoodsElasticApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="GoodsElasticApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hkycu.goods.elastic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="goods-elastic" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hkycu.goods.elastic" />
+      <option name="MAIN_CLASS_NAME" value="com.hkycu.goods.elastic.GoodsElasticApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="GoodsElasticApplicationTests.testCatIndecies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hkycu.goods.elastic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="goods-elastic" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hkycu.goods.elastic" />
+      <option name="MAIN_CLASS_NAME" value="com.hkycu.goods.elastic.GoodsElasticApplicationTests" />
+      <option name="METHOD_NAME" value="testCatIndecies" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="GoodsElasticApplicationTests.testGoodsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hkycu.goods.elastic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="goods-elastic" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hkycu.goods.elastic" />
+      <option name="MAIN_CLASS_NAME" value="com.hkycu.goods.elastic.GoodsElasticApplicationTests" />
+      <option name="METHOD_NAME" value="testGoodsById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="GoodsElasticApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hkycu.goods.elastic.GoodsElasticApplication" />
+      <module name="goods-elastic" />
+      <envs />
+    </configuration>
+    <configuration name="GoodsSeckillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hkycu.goodsseckill.GoodsSeckillApplication" />
+      <module name="goods-seckill" />
+      <envs />
+    </configuration>
+    <configuration name="GoodsSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hkycu.goods.GoodsSysApplication" />
+      <module name="goods-sys" />
+      <envs />
+    </configuration>
+    <configuration name="UserSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hkycu.user.UserSysApplication" />
+      <module name="user-sys" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.UserSysApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.GoodsSysApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.GoodsSeckillApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.GoodsElasticApplication" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsElasticApplicationTests.testCatIndecies" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.GoodsElasticApplicationTests.contextLoads" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.GoodsElasticApplicationTests.testGoodsById" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GoodsElasticApplicationTests.testGoodsById" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GoodsElasticApplicationTests.testCatIndecies" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GoodsElasticApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0302808-b28b-4862-9477-b39cc208330c" name="Default" comment="" />
+      <created>1604228225262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604228225262</updated>
+      <workItem from="1604228226607" duration="12000" />
+      <workItem from="1604235667808" duration="10000" />
+      <workItem from="1604279296510" duration="4203000" />
+      <workItem from="1604287977699" duration="43000" />
+      <workItem from="1604288285007" duration="582000" />
+      <workItem from="1604289037200" duration="16731000" />
+      <workItem from="1604391714890" duration="1344000" />
+      <workItem from="1604393253062" duration="5275000" />
+      <workItem from="1604399820103" duration="25621000" />
+      <workItem from="1604577390023" duration="1280000" />
+      <workItem from="1604627539235" duration="24494000" />
+      <workItem from="1604905017678" duration="24656000" />
+      <workItem from="1604984628556" duration="19855000" />
+      <workItem from="1605062656888" duration="21633000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GoodsElasticApplicationTests_testCatIndecies - 2020.11.03 at 11h 17m 16s.xml">
+      <configuration name="GoodsElasticApplicationTests.testCatIndecies" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsElasticApplicationTests_testCatIndecies - 2020.11.03 at 14h 26m 55s.xml">
+      <configuration name="GoodsElasticApplicationTests.testCatIndecies" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsElasticApplicationTests_testCatIndecies - 2020.11.03 at 15h 26m 04s.xml">
+      <configuration name="GoodsElasticApplicationTests.testCatIndecies" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsElasticApplicationTests_testGoodsById - 2020.11.03 at 15h 29m 23s.xml">
+      <configuration name="GoodsElasticApplicationTests.testGoodsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsElasticApplicationTests_testGoodsById - 2020.11.03 at 15h 40m 49s.xml">
+      <configuration name="GoodsElasticApplicationTests.testGoodsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsElasticApplicationTests_testGoodsById - 2020.11.03 at 15h 41m 24s.xml">
+      <configuration name="GoodsElasticApplicationTests.testGoodsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsElasticApplicationTests_testGoodsById - 2020.11.03 at 15h 49m 02s.xml">
+      <configuration name="GoodsElasticApplicationTests.testGoodsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsElasticApplicationTests_testGoodsById - 2020.11.03 at 16h 04m 51s.xml">
+      <configuration name="GoodsElasticApplicationTests.testGoodsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsElasticApplicationTests_testGoodsById - 2020.11.03 at 16h 33m 46s.xml">
+      <configuration name="GoodsElasticApplicationTests.testGoodsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsElasticApplicationTests_testGoodsById - 2020.11.03 at 16h 41m 22s.xml">
+      <configuration name="GoodsElasticApplicationTests.testGoodsById" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="145739000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="97" y="87" width="2733" height="1612" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71756274" sideWeight="0.50143266" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52078855" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2763441" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49731904" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24982078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53078985" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.49856734" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908848" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38017753" sideWeight="0.49856734" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23882309" sideWeight="0.49570817" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50268096" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3438546" sideWeight="0.50429183" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="goods.feightTemplateId" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/dao/SeckillGoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/resources/mybatis/mappers/SeckillGoodsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
+          <folding>
+            <marker date="1604106882000" expanded="true" signature="4485:4593" ph="select from seckill_goods" />
+            <marker date="1604106882000" expanded="true" signature="4673:4823" ph="select secki... seckill_goods" />
+            <marker date="1604106882000" expanded="true" signature="4938:5145" ph="select secki... seckill_goods" />
+            <marker date="1604106882000" expanded="true" signature="5228:5290" ph="delete from seckill_goods... " />
+            <marker date="1604106882000" expanded="true" signature="5444:5714" ph="insert into seckill_goods... " />
+            <marker date="1604106882000" expanded="true" signature="6936:7517" ph="update seckill_goods... " />
+            <marker date="1604106882000" expanded="true" signature="7627:7938" ph="update seckill_goods... " />
+            <marker date="1604106882000" expanded="true" signature="8041:8142" ph="update seckill_goods... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/util/OrderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/dao/SeckillOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/resources/mybatis/mappers/SeckillOrderDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <marker date="1604106882000" expanded="true" signature="748:856" ph="select from seckill_order" />
+            <marker date="1604106882000" expanded="true" signature="971:1135" ph="select from seckill_order" />
+            <marker date="1604106882000" expanded="true" signature="1210:1280" ph="select from seckill_order" />
+            <marker date="1604106882000" expanded="true" signature="1363:1425" ph="delete from seckill_order... " />
+            <marker date="1604106882000" expanded="true" signature="1579:1747" ph="insert into seckill_order... " />
+            <marker date="1604106882000" expanded="true" signature="2633:2993" ph="update seckill_order... " />
+            <marker date="1604106882000" expanded="true" signature="3103:3298" ph="update seckill_order... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/result/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#875#876#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/dao/UmsMemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/resources/mybatis/mappers/UmsMemberDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/web/SeckillOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/GoodsKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/SeckillKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/RedisPoolFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/util/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_101/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/KeyPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/result/CodeMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="72" lean-forward="true" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/org/slf4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/UserKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/service/Impl/SeckillOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="e#4177#4178#0" expanded="false" />
+            <element signature="e#4259#4260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/annotations/AccessLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/service/SeckillOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="504" column="0" lean-forward="false" selection-start-line="504" selection-start-column="0" selection-end-line="504" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/service/Impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/web/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/BasePrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#151#152#0" expanded="false" />
+            <element signature="e#187#188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/AccessKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#121#122#0" expanded="false" />
+            <element signature="e#150#151#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/redis/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/interceptor/AuthorityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="115" column="64" lean-forward="true" selection-start-line="115" selection-start-column="64" selection-end-line="115" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/web/ProductSeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1717">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-seckill/src/main/java/com/hkycu/goodsseckill/web/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/config/RestHighLevelClientConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-735">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/domain/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/resources/mybatis/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <marker date="1604375400000" expanded="true" signature="799:1043" ph="SELECT a.id,... tb_item" />
+            <marker date="1604375400000" expanded="true" signature="1156:1433" ph="SELECT a.id,... tb_item" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/Impl/GoodsServiceDBImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/GoodsServiceDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/GoodsElasticApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/ElasticConts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/Result/CodeMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/Result/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/ElasticService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods-elastic/src/main/java/com/hkycu/goods/elastic/service/Impl/ElasticSearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
